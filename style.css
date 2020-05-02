@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    background-color:whitesmoke;
+
+    
+} 
+.phone{
+    position: relative;
+    margin: 2% auto;
+    width: 350px;
+    height: 580px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ 
+
+}
+
+.header{
+    position: relative;
+    padding: 25px;
+    width: 100%;
+    background: linear-gradient(to right, crimson,crimson);
+    color:#ffffff;
+}
+
+.remoteText{
+font-weight: bolder;
+cursor: pointer;
+padding:  4px 15px;
+display: inline;
+border-radius: 30px;
+text-align: center;
+border: 1px solid #ffffff;
+}
+
+.header p {
+    font-size: 16px;
+}
+
+
+.todo-body{
+    position: relative;
+    width: 100%;
+    height: 415px;
+    overflow-y: scroll;
+}
+.todo-body::-webkit-scrollbar{ 
+    background: transparent;
+    width: 1px;
+
+}
+.todo-list{
+    list-style: none;
+}
+.todo-list .todo-item{
+    padding: 20px;
+    border-bottom: 1px solid#e7e7e7;
+    color: teal;
+}
+.todo-item.checked{
+    text-decoration: line-through;
+
+}
+
+input[type ="checkbox"] {
+
+    position: relative;
+    top: 3px;
+    margin-right: 10px;
+    width: 17px;
+    height: 17px;
+
+}
+
+.todo-input{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    border: 0;
+    border-top: 1px solid#e7e7e7;
+}
